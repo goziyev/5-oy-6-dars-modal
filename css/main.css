@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.modal {
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  background: -webkit-gradient(linear, left top, right top, from(#1c9c0d), color-stop(52%, #1a7632), to(#6200ff));
+  background: linear-gradient(90deg, #1c9c0d 0%, #1a7632 52%, #6200ff 100%);
+  color: white;
+  height: 200px;
+  border-radius: 15px;
+  padding: 15px;
+  gap: 10px;
+  background-color: aqua;
+  font-size: 18px;
+  line-height: 1.2;
+  display: none;
+  -webkit-transform: translateY(0px);
+          transform: translateY(0px);
+  -webkit-transition: all 2s linear;
+  transition: all 2s linear;
+}
+
+.modal-btn {
+  display: block;
+  position: absolute;
+  margin-left: 40%;
+  z-index: 4;
+  top: 0px;
+  -webkit-transform: translateY(250px);
+          transform: translateY(250px);
+  -webkit-transition: all 2s linear;
+  transition: all 2s linear;
+}
+
+.flex {
+  margin-left: 150px;
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+}
+
+.flex button {
+  border: 2px solid white;
+  color: white;
+  cursor: pointer;
+  background-color: transparent;
+  border-radius: 15px;
+  padding: 10px 15px;
+}
+
+.modal_btn {
+  margin: 30px;
+  padding: 10px 35px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.html {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  display: block;
+  z-index: 1 !important;
+  background-color: lightgray;
+  filter: alpha(opacity=75);
+  /* internet explorer */
+  -khtml-opacity: 0.75;
+  /* khtml, old safari */
+  -moz-opacity: 0.75;
+  /* mozilla, netscape */
+  opacity: 0.75;
+  /* fx, safari, opera */
+}
+
+.html1 {
+  display: none;
+}
+/*# sourceMappingURL=main.css.map */
